@@ -22,7 +22,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Build Docker Mongo Image
+    - name: Pull Docker Mongo Image
       run: docker pull mongo
 
     - name: Run Docker Mongo container
